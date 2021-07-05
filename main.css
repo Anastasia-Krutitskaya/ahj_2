@@ -1,0 +1,40 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.board-container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  .board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+.cell {
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(126, 135, 143);
+    position: relative;
+}
+/* .goblin {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 99;
+    background: url('../img/goblin.png');
+}  */
+
+.goblin {
+    /* background: url('https://raw.githubusercontent.com/netology-code/ahj-homeworks/simplification/dom/pic/goblin.png'); */
+    background: url(/2dbd01ce16c0fa83cb67e20c73dedb66.png);
+   
+    background-size: contain;
+}
+
